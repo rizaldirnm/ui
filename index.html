@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TVRI | System Management Assets</title>
+    <!-- BOOTSTRAP HERE -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--  CUSTOM CSS HERE-->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fixed-top">
+            <!-- Logo Here -->
+            <div class="col-md-2 menu background-logo">
+                <img class="logo" src="./img/logo.png" />
+            </div>
+
+            <!-- Menu Top Right -->
+            <div class="col-md-10 menu-top background-right">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="title">System Management Asssets</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-top float-right">
+                            <img src="./img/icon/exit-icon@2x.png" />
+                            <a href="#">Keluar</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-bellow">
+            <div class="col-md-2 menu-side" >
+                <div class="content-menu">
+                    <div class="profile-userpic">
+                        <img src="https://pbs.twimg.com/media/DMNJ95AVwAADT-r.jpg" alt="profile-pic" />
+                    </div>
+                    <div class="white center marginTop20">
+                        <h6>Emma Bernanche</h6>
+                        <p>Divisi Gudang</p>
+                    </div>
+                </div>
+
+                <div class="row navCustome active">
+                    <a href="#">Beranda</a>
+                </div>
+                <div class="row navCustome deactive">
+                    <a href="#">Inventaris</a>
+                </div>
+                    <div class="row navCustome subMenu">
+                        <a href="#"><li>Nama Barang</li></a>
+                    </div>
+                    <div class="row navCustome subMenu">
+                        <a href="#"><li>Tipe Barang</li></a>
+                    </div>
+                <div class="row navCustome deactive">
+                    <a href="#">Pengguna</a>
+                </div>
+                    <div class="row navCustome subMenu">
+                        <a href="#"><li>Unit Kerja</li></a>
+                    </div>
+                <div class="row navCustome deactive">
+                    <a href="#">Tukar Pemilik</a>
+                </div>
+                <div class="copyright">
+                    <hr color="#1E2127">
+                    <p><small>2018 © MI-Tech Indonesia<br>Commit to TVRI Jakarta</small></p>
+                </div>
+            </div> 
+        </div>
+
+            
+            <!-- !!!!MAIN CONTEN HERE!!!! -->
+            <div class="col-md-10 main-content">
+                <div class="container-content">
+                    <h4><strong>Beranda</strong></h4>
+                    <p>Apa yang akan anda lakukan?</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button class="card card-modul">
+                                <div class="card-body">
+                                    <img src="./img/icon/icon-in@2x.png" />
+                                    <div class="detail-modul">
+                                        <h5><strong>Barang Masuk</strong></h5>
+                                        <p class="detail-color">Pencatatan barang yang masuk kedalam gudang</p>
+                                    </div>
+                                    
+                                </div>
+                            </button>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <button class="card card-modul float-right">
+                                    <div class="card-body">
+                                        <img src="./img/icon/icon-out@2x.png" />
+                                        <div class="detail-modul">
+                                            <h5><strong>Barang Keluar</strong></h5>
+                                            <p class="detail-color">Pencatatan barang saat keluar untuk digunakan</p>
+                                        </div>
+                                    </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row table-home">
+                        <div class="col-md-12">
+                            <div class="card card-table ">
+                                <div class="card-body">
+                                    <!-- HEADER BUTTON -->
+                                    <div class="row header-home">                                        
+                                        <div class="col-md-6">
+                                            <h5>Pengguna Barang</h5>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="float-right">
+                                                <button class="button-add">
+                                                <img style="width: 26px" src="./img/icon/icons8-add.png" />Tambah
+                                            </button>
+                                            <button class="button-all">
+                                                Lihat semua
+                                            </button>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- TABLE CONTENT -->
+                                    <table id="user">
+                                        <tr>
+                                            <th>Nama</th>
+                                            <th>NIP</th>
+                                            <th>Unit Kerja</th>
+                                            <th>Jabatan</th>
+                                            <th>No. Tell</th>
+                                            <th>Email</th>
+                                            <th>Aksi</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                       <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Muhammad Zain</td>
+                                            <td>1801413413</td>
+                                            <td>Studio 1</td>
+                                            <td>Supervisor</td>
+                                            <td>0812232245</td>
+                                            <td>zain@tvri.co.id</td>
+                                            <td>
+                                                <button class="btn-detail"><img style="width: 30px;" src="./img/icon/icons8-visible.png" /></button>
+                                                <button class="btn-edit"><img style="width: 20px" src="./img/icon/icons8-edit.png" /></button>
+                                            </td>
+                                        </tr>                                        
+                                    </table>
+
+                                    <nav aria-label="...">
+                                        <ul class="pagination">
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="#" tabindex="-1"><</a>
+                                            </li>
+                                            <li class="page-item active page-active">
+                                                <a class="page-link" href="#">1</a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">2</a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">3</a>
+                                            </li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT BOOTSTRAP HERE -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT CUSTOM HERE -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

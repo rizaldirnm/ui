@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+}
+button:focus {
+    outline:0;
+}
+
+.detail-color{
+    color: #888888;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #5E7081; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.background-logo{
+    background-color: #1C232A;
+    height: 73px;
+}
+
+img.logo{
+    padding: 10px;
+    width: 171px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    padding: 0;
+}
+
+.background-right{
+    background-color: #fff;
+    height: 73px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5.title {
+    padding: 22px;
+}
+
+.right-top{
+    padding: 24px
+}
+
+.right-top img{
+    width: 22px;
+}
+
+.right-top a{
+    text-decoration: none;
+    color: #008EDC;
+}
+
+.right-top a:hover{
+    color: #35567F;
+}
+
+.profile-userpic img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+  }
+
+  .row-bellow{
+      padding-top: 72px;
+  }
+
+  .menu-side{
+    position: fixed; 
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    max-width: 15.89%;
+    background: #303A43;
+    height: 100%;
+    color: white;
+    overflow-y: scroll;
+  }
+
+  .main-content {
+    margin-left: 14.99999%;
+    background-color: #EEF3F6;
+    max-width: 1078px;
+  }
+
+  .content-menu{
+    padding: 15px;
+  }
+
+  .white {
+      color: whitesmoke;
+  }
+  .center {
+      text-align: center;
+  }
+
+  .marginTop20{
+      margin-top: 20px;
+  }
+
+  .marginTop50{
+      margin-top: 50px;
+  }
+
+  .navCustome{
+    padding: 10px 25px;
+  }
+  
+  .active{
+    border-left: 6px solid #008EDC;
+    background: #708393;
+  }
+
+  .active a{
+      text-decoration: none;
+      color: white;
+  }
+  .active a:hover{
+      color: #D0D0D0;
+  }
+
+  .deactive {
+      padding-left: 31px;
+  }
+  .deactive a{
+      text-decoration: none;
+      color: #B4C6D6;
+  }
+  .deactive a:hover {
+      color: white;
+  }
+
+  .subMenu{
+      padding-left: 40px;
+  }
+
+  .subMenu a{
+    text-decoration: none;
+    color: #B4C6D6;
+  }
+  .subMenu a:hover {
+      color: white;
+  }
+
+  .container-content {
+      padding: 25px;
+  }
+
+  .card-modul {
+      width: 29rem;
+      border-radius: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+  }
+
+  .card-modul:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card img {
+      float: left;
+  }
+
+  .detail-modul{
+    margin-left: 150px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .copyright {
+    padding:30px 0px 60px 0px;
+    color: #5E7081;
+    text-align: center; 
+  }
+
+  .table-home {
+      margin-top: 50px;
+  }
+
+  .card-table {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .button-add{
+      border-radius: 20px;
+      padding: 5px;
+      width: 120px;
+      max-width: 150px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      background: #9ED874;
+      border: none;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+
+  .header-home {
+      margin-top: 15px;
+  }
+
+  .button-add:hover{
+    background: #61D900;
+  }
+  .button-add:active{
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+  }
+
+  .button-all{
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+    max-width: 150px;
+    border-color: #008EDC;
+    color: #008EDC;
+  }
+  .button-all:hover{
+      background: #008EDC;
+      color: white;
+  }
+
+  #user{
+      width: 100%;
+      margin-top: 50px;
+  }
+
+  #user th td {
+      padding: 20px 0 20px 0;    
+  }
+
+  #user td {
+      margin-top: 20px;
+      color: #888888;
+      max-width: 124px;
+      overflow: hidden;
+  }
+
+  #user tr:nth-child(even){
+      background-color: #f2f2f2;
+  }
+  #user tr:hover {
+      background-color: #ddd;
+  }
+
+
+  #user th{
+      border-bottom: 2px solid #5E7081;
+      padding: 10px;
+      background: white;
+  }
+
+  #user td {
+      padding: 10px;
+  }
+
+  .btn-detail{
+    border-radius: 20px;
+    background: #008EDC;
+    width: 56px;
+    height: 33px;
+    border: none;
+    padding-left: 13px;
+  }
+
+  .btn-edit{
+    border-radius: 20px;
+    background: #DCCB00;
+    width: 56px;
+    height: 33px;
+    border: none;
+    padding-left: 18px;
+  }
+
+  .pagination{
+      margin-top: 40px;
+      float: right
+  }
+  .page-active{
+    border: none;
+  }
+
+  ul li .active{
+      background: #177BD6;
+  }

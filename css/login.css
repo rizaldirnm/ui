@@ -1,0 +1,95 @@
+.bg-login{
+    background-image: url('../img/bg-login.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+button{
+    cursor: pointer;
+    outline: none;
+}
+button:focus {
+    outline:0;
+}
+
+.card {
+    border-radius: 8px;
+    margin: 30px 45px;
+    border: none;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.logo-warna{
+    width: 150px;
+    margin: 30px 45px;
+    opacity: 0.8;
+}
+
+.detail-color{
+    color: #888888;
+    font-size: 12px;
+}
+
+.input-container {
+    padding: 5px;
+    border: 1px solid #4FA2CC;
+    border-radius: 25px;
+    width: 345px;
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-bottom: none;
+    padding-left: 18px;
+}
+
+input:focus{
+    outline:0;
+    
+}
+
+.marginTop30{
+    margin-top: 30px;
+}
+
+::-webkit-input-placeholder { 
+    color:rgb(155, 155, 155);
+    font-size: 13px;
+  }
+
+.forgot-pass{
+    color: #7A7A7A;
+    font-size: 11px;
+    float: right;
+    padding-right: 98px;
+    margin-top: 10px;
+
+}
+
+.btn-login {
+    border: none;
+    border-radius: 20px;
+    background-color: #008EDC;
+    padding: 3px;
+    color: white;
+    width: 80px;
+    margin-top: 35px;
+}
+
+.btn-login:hover{
+    background-color: #426990;
+}
+
+.copy {
+    color:rgb(155, 155, 155);
+    font-size: 11px;
+    margin-top: 107px;
+    margin-left: 45px;
+}
