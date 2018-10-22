@@ -1,8 +1,11 @@
 .bg-login{
     background-image: url('../img/bg-login.png');
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+.row{
+  height: 100vh;
 }
 button{
     cursor: pointer;
@@ -55,14 +58,14 @@ input{
 
 input:focus{
     outline:0;
-    
+
 }
 
 .marginTop30{
     margin-top: 30px;
 }
 
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
     color:rgb(155, 155, 155);
     font-size: 13px;
   }
