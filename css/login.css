@@ -12,6 +12,9 @@ button:focus {
     outline:0;
 }
 
+.row{
+    height: 100vh;
+}
 .card {
     border-radius: 8px;
     margin: 30px 45px;
@@ -90,6 +93,5 @@ input:focus{
 .copy {
     color:rgb(155, 155, 155);
     font-size: 11px;
-    margin-top: 107px;
     margin-left: 45px;
 }
